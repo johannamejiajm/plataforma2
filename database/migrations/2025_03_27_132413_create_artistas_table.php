@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('email');
             $table->string('telefono');
-            $table->string('foto');
+            $table->string('foto')->nullable();
             $table->string('descripcion');
             $table->date('fecharegistro');
             $table->string('estado');
